@@ -45,14 +45,14 @@ async def start(m: UpdateNewMessage):
     reply_text = f"""
 Hello! I am a bot to download videos from terabox.
 Send me the terabox link and I will start downloading it.
-Join @HDCINEMA_1 For Updates"""
-    check_if = await is_user_on_chat(bot, "@HDCINEMA_1", m.peer_id)
+join @lafdaverse"""
+    check_if = await is_user_on_chat(bot, "@yashbotz", m.peer_id)
     if not check_if:
-        return await m.reply("Please join @HDCINEMA_1 then send me the link again.")
-    check_if = await is_user_on_chat(bot, "@HDCINEMA_1", m.peer_id)
+        return await m.reply("Please join @yashbotz then send me the link again.")
+    check_if = await is_user_on_chat(bot, "@yashbotz", m.peer_id)
     if not check_if:
         return await m.reply(
-            "Please join @HDCINEMA_1 then send me the link again."
+            "Please join @yashbotz then send me the link again."
         )
     await m.reply(reply_text, link_preview=False, parse_mode="markdown")
 
@@ -68,13 +68,13 @@ Join @HDCINEMA_1 For Updates"""
 async def start(m: UpdateNewMessage):
     text = m.pattern_match.group(1)
     fileid = db.get(str(text))
-    check_if = await is_user_on_chat(bot, "@HDCINEMA_1", m.peer_id)
+    check_if = await is_user_on_chat(bot, "@yashbotz", m.peer_id)
     if not check_if:
-        return await m.reply("Please join @HDCINEMA_1 then send me the link again.")
-    check_if = await is_user_on_chat(bot, "@HDCINEMA_1", m.peer_id)
+        return await m.reply("Please join @yashbotz then send me the link again.")
+    check_if = await is_user_on_chat(bot, "@yashbotz", m.peer_id)
     if not check_if:
         return await m.reply(
-            "Please join @HDCINEMA_1 then send me the link again."
+            "Please join @yashbotz then send me the link again."
         )
     await bot(
         ForwardMessagesRequest(
@@ -125,13 +125,13 @@ async def handle_message(m: Message):
     url = get_urls_from_string(m.text)
     if not url:
         return await m.reply("Please enter a valid url.")
-    check_if = await is_user_on_chat(bot, "@HDCINEMA_1", m.peer_id)
+    check_if = await is_user_on_chat(bot, "@yashbotz", m.peer_id)
     if not check_if:
-        return await m.reply("Please join @HDCINEMA_1 then send me the link again.")
-    check_if = await is_user_on_chat(bot, "@HDCINEMA_1", m.peer_id)
+        return await m.reply("Please join @yashbotz then send me the link again.")
+    check_if = await is_user_on_chat(bot, "@yashbotz", m.peer_id)
     if not check_if:
         return await m.reply(
-            "Please join @HDCINEMA_1 then send me the link again."
+            "Please join @yashbotz then send me the link again."
         )
     is_spam = db.get(m.sender_id)
     if is_spam and m.sender_id not in [6478563263]:
