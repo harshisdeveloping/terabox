@@ -1,14 +1,14 @@
-API_ID = 26556200  # api id
-API_HASH = "3917b963bcc9a867097c4811af6ab39d"  # api hash
+API_ID = 24938067  # api id
+API_HASH = "d9f7ae36c6f7709f3aaa238ebcc80acb"  # api hash
 
-BOT_TOKEN = "7144519164:AAElBIgMazPNmcvrzF7Ob497pLo8Tg02QNY"  # bot token
+BOT_TOKEN = "7735414280:AAF1AtqQlAYea6GX8EOjoLY07K1P2TDrTGc"  # bot token
 
 
 ## REDIS
-HOST = "redis-13343.c232.us-east-1-2.ec2.redns.redis-cloud.com"  # redis host uri
-PORT = 13343  # redis port
-PASSWORD = "oLmI16Rpn58jas2xc8C96pmMMdcMN54f"  # redis password
+HOST = "redis-18329.c256.us-east-1-2.ec2.redns.redis-cloud.com"  # redis host uri
+PORT = 18329  # redis port
+PASSWORD = "xMHJYdXY3F48q9TKm1JQcn7xYWrtynmx"  # redis password
 
-PRIVATE_CHAT_ID = -1002015670608  # CHAT WHERE YOU WANT TO STORE VIDEOS
+PRIVATE_CHAT_ID = -1002376404797  # CHAT WHERE YOU WANT TO STORE VIDEOS
 COOKIE = "browserid=e6BpYRlMP5Vn8ohYzjHb0u88_meF_rkIKbLL0W67SaGi9qZuwqGDZFeeo0Q=; lang=en; TSID=qvCqzSyIfjnBulptvbhNuTbNHvyDLGe6; _gcl_au=1.1.1840568813.1715716251; __bid_n=18f7884c0dffddcdd54207; _fbp=fb.1.1715716256020.1496184235; _ga=GA1.1.1763972518.1715716257; _tt_enable_cookie=1; _ttp=LyScxiKhoz2xG9zVEHo8PqQSGB-; csrfToken=YdUTS-pwM16pjP-1oiooeRcC; ndus=YdEHmuMteHui2cNPvVXXuN9tHDvNhZx6RnsSUjNq; ab_ymg_result={"data":"a42173f28d8af1dafb61e01a3a6d6c7765f0ba206689136a929ccb4835ebbe8ffa77c7f3c10ed1d2e44966bf5a9ee9a0f06105a64571b826e352d1fc242d7d4abf273a8ebff5e75c87a6901c4ff01442afc528bb9cfc0efa1d4fe77955e3fa1ae97d8109487f23ff935e6a39160c908740990dd5688c599caf48a12fdf15ef61","key_id":"66","sign":"ea7f732c"}; _ga_RSNVN63CM3=GS1.1.1715754616.2.1.1715754677.59.0.0; ab_sr=1.0.1_NzYxODM1OTFkMWYzODQ1Nzk0MTkyY2I1NTkzZDQzYmRlYTEzMzMwODdiYzVjNTZmNTMyZjI5NTQ2MDYwZTFjNmMyYzJmZTYwOTE0NzNjMjliNjI5YjI0NjY5NTFkMzRlN2Y5NDM5NTNmMzUyZmUzYTcyMTA2YTdjMmVjMGU1NjIyN2Q5MDQzN2JmODcxZDkzNDQ5MWI0MTExNWMxMmIwMA==; ndut_fmt=E4092D498DACD99843E63B1E69EFBC95ED925796F7AF3B8202938C53D9BBD2CD; _ga_06ZNKL8C2E=GS1.1.1715754367.1.1.1715754703.20.0.0"  # COOKIE FOR AUTHENTICATION (get from chrome dev tools) ex: "PANWEB=1; csrfToken=; lang=en; TSID=; __bid_n=; _ga=; __stripe_mid=; ndus=; browserid==; ndut_fmt=; _ga_06ZNKL8C2E=" (don't use this)
 ADMINS = [6707921457]
